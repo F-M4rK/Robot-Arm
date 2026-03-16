@@ -1,0 +1,8 @@
+steppermotor controller: in1 (lila), in2 (narancs), in3 (feher), in4 (piros)
+felso steppermotor: 2,3,4,5 pin
+also steppermotor: 8,9,10,11 pin
+
+fekete kabel: pozitiv
+sarga: negativ
+
+szervo: kek(pin 6), lila(negativ), fekete(pozitiv)
