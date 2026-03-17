@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivraj Control</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: deepskyblue;
+        }
+        main{
+            padding: 20px;
+            justify-items: center;
+            border: 3px solid black;
+            border-radius: 15px;
+            background-color: rgb(0, 159, 212);
+        }
+        a{margin: 10px;}
+        h2{text-align: center;}
+        button{
+            height: 75%;
+            width: 75%;
+        }
+        #megy, #mketto, #mharom{
+            border: 2px black dashed;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>3 Stepper Motor Control</h1>
+        <div id="megy">
+            <h2>Motor 1</h2>
+            <a href="/m1cw"><button>CW</button></a>
+            <a href="m1ccw"><button>CCW</button></a>
+            <a href="/m1stop"><button>STOP</button></a>
+            <br><hr>
+            <p id="megyallapot">Állapot:</p>
+        </div>
+        <div id="mketto">
+            <h2>Motor 2</h2>
+            <a href="/m2cw"><button>CW</button></a>
+            <a href="m2ccw"><button>CCW</button></a>
+            <a href="/m2stop"><button>STOP</button></a>
+            <br><hr>
+            <p id="mkettoallapot">Állapot:</p>
+        </div>
+        <div id="mharom">
+            <h2>Motor 3</h2>
+            <a href="/m3cw"><button>CW</button></a>
+            <a href="m3ccw"><button>CCW</button></a>
+            <a href="/m3stop"><button>STOP</button></a>
+            <br><hr>
+            <p id="mharomallapot">Állapot:</p>
+        </div>
+    </main>
+</body>
+</html>
